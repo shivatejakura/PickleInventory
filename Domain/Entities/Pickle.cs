@@ -14,7 +14,7 @@
 		public required string PickleDescription { get; set; }
 		public PickeType PickleType { get; set; }
 
-		public decimal PicklePrice { get; set; } = 0;
+		public decimal PicklePrice { get; set; }
 		public decimal PickleVolume { get; set; }
 
 		public float PickelRating { get; set; }	
