@@ -10,6 +10,7 @@ namespace PickleInventory.Client.Dtos
         string UserAddress,
         DateTime OrderDate,
         List<OrderItemDto> OrderItems,
+
         decimal TotalAmount,
         DeliveryStatus DeliveryStatus);
 }
